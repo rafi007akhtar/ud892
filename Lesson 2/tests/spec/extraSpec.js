@@ -1,5 +1,5 @@
 describe('window height', function() {
-	it('returns window height', function() {
-		expect(getWindowHeight()).toEqual(jasmine.any(Number));
-	});
+  it('returns window height', function() {
+    expect(window.innerHeight).toEqual(jasmine.any(Number));
+  });
 });
